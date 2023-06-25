@@ -1,0 +1,91 @@
+@media screen and (min-width: 767px) {
+  header,
+  main,
+  footer .top,
+  footer .under {
+    padding: 2.5rem;
+  }
+  header {
+    padding-top: 1.5rem;
+  }
+  header .same,
+  main,
+  footer .top {
+    display: grid;
+    text-align: start;
+    justify-content: space-between;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
+  }
+  header form {
+    display: flex;
+  }
+  header form button {
+    width: 70%;
+    margin-left: 1rem;
+  }
+  header form input,
+  header form button {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.6rem;
+  }
+  header .same aside,
+  main aside {
+    order: 2;
+  }
+  main {
+    background-image: url(./images/bg-curve-desktop.svg);
+  }
+  main aside,
+  main section {
+    padding-top: 2rem;
+  }
+  main section h1 {
+    font-size: 1.3rem;
+  }
+  .same article {
+    margin: auto 0;
+  }
+  .same h1 {
+    text-align: start;
+  }
+  .same h1,
+  .same p {
+    margin-bottom: 0.8rem;
+  }
+  .same a {
+    text-align: start;
+  }
+  .card {
+    margin: 0.5rem 0;
+    width: 60%;
+    padding: 0.5rem 1rem;
+  }
+  .card p {
+    margin-bottom: 0.5rem;
+  }
+  .top {
+    font-size: 0.8rem;
+  }
+  .top article {
+    padding-right: 1rem;
+    margin: auto 0;
+  }
+  .top article h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1rem;
+  }
+
+  .top button {
+    padding: 0.5rem 0.8rem;
+    min-width: fit-content;
+    width: 50%;
+  }
+  .top form {
+    padding: 0 1rem;
+  }
+  .under div {
+    display: flex;
+    justify-content: space-between;
+  }
+}

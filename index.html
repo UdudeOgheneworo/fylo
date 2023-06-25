@@ -12,19 +12,19 @@
     <header>
         <nav class="headerNav">
             <img src="./images/logo.svg" alt="logo">
-            <li>
-                <ul>Feature</ul>
-                <ul>Team</ul>
-                <ul>Sign In</ul>
-            </li>
+            <ul>
+                <li>Features</li>
+                <li>Team</li>
+                <li>Sign In</li>
+            </ul>
         </nav>
         <section class="same">
             <aside><img src="./images/illustration-1.svg" class="illustration" alt="first illustration"></aside>
             <article>
                 <h1>All your files in one secure location, accessible anywhere.</h1>
                 <p>Fylo stores your most important files in one secure location. Access them wherever you need, share
-                    and collaborate with friends, family and co-workers.</p>
-                <form action="">
+                    and collaborate with friends, family, and co-workers.</p>
+                <form class="headerForm">
                     <input type="text" placeholder="Enter your email...">
                     <button>Get Started</button>
                 </form>
@@ -33,14 +33,17 @@
         </section>
     </header>
     <main>
-        <aside><img src="./images/illustration-2.svg" class="illustration" alt="second illustration"></aside>
-        <section class="same">
+        <aside><img src="./images/illustration-2.svg" class="illustration" alt="second illustration">
+        </aside>
+        <article class="same">
             <h1>Stay productive, wherever you are</h1>
-            <p>Never let location be an issue when accessing your files. Fylo has you covered for all of you file
+            <p class="articleP">Never let location be an issue when accessing your files. Fylo has you covered for all
+                of you file
                 storage needs.</p>
-            <p>Securely share files and folders with friends, family and colleagues for live collaboration. No
+            <p class="articleP">Securely share files and folders with friends, family and colleagues for live
+                collaboration. No
                 email attachments required!</p>
-            <a href="#">see how Fylo works <img src="./images/icon-arrow.svg"></a>
+            <a href="#">see how Fylo works <img src="./images/icon-arrow.svg" class="arrow" alt="arrow icon"></a>
             <div class="card">
                 <img src="./images/icon-quotes.svg">
                 <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our
@@ -53,19 +56,17 @@
                     </div>
                 </div>
             </div>
-
-        </section>
+        </article>
 
     </main>
     <footer>
         <section class="top">
             <article>
-
                 <h2>Get early access today</h2>
                 <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
                     questions, our support team would be happy to help you.</p>
             </article>
-            <form action="">
+            <form class="footerForm">
                 <input type="text" placeholder="email@example.com">
                 <button>Get started for free</button>
             </form>
@@ -74,39 +75,48 @@
             <img src="./images/logo.svg" class="logo" alt="logo">
             <div>
                 <nav>
-                    <li class="contact">
-                        <ul><a href="#"><img src="./images/icon-phone.svg">
+                    <ul class="contact">
+                        <li><a href="#"><img src="./images/icon-phone.svg" alt="phone icon">
+                                Phone: +1-543-123-4567
                             </a>
-                            <p>Phone: +1-543-123-4567</p>
-                        </ul>
-                        <ul><a href="#"><img src="./images/icon-email.svg" alt=""></a>
-                            <p>example@fylo.com</p>
-                        </ul>
-                    </li>
-                </nav>
-                <nav>
-                    <li>
-                        <ul><a href="#">About Us</a></ul>
-                        <ul><a href="#">Jobs</a></ul>
-                        <ul><a href="#">Press</a></ul>
-                        <ul><a href="#">Blog</a></ul>
+                        </li>
 
-                    </li>
+                        <li><a href="#"><img src="./images/icon-email.svg" alt="email icon">
+                                example@fylo.com
+                            </a>
+                        </li>
+                    </ul>
                 </nav>
                 <nav>
-                    <li>
-                        <ul><a href="#">Contact Us</a></ul>
-                        <ul><a href="#">Terms</a></ul>
-                        <ul><a href="#">Privacy</a></ul>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Blog</a></li>
 
-                    </li>
+                    </ul>
                 </nav>
                 <nav>
-                    <li class="social">
-                        <ul><a href="#"><img class="socialIcon" src="./images/facebook.svg"></a></ul>
-                        <ul><a href="#"><img class="socialIcon" src="./images/twitter.svg"></a></ul>
-                        <ul><a href="#"><img class="socialIcon insta" src="./images/instagram.svg"></a></ul>
-                    </li>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>
+
+                    </ul>
+                </nav>
+                <nav>
+                    <ul class="social">
+                        <li>
+                            <a href="#"><img class="socialIcon" src="./images/facebook.svg" alt="facebook logo"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img class="socialIcon" src="./images/twitter.svg" alt="twitter logo"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img class="socialIcon insta" src="./images/instagram.svg"
+                                    alt="instagram logo"></a>
+                        </li>
+                    </ul>
                 </nav>
             </div>
         </section>
